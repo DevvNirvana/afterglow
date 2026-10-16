@@ -74,16 +74,15 @@ listing on homebrew.page.
   `OggStream`, with chains and in-stream titles.
 - PC snapshots of every scene, every genre skin, the radio lists with logos,
   the song card with a long title and the command box were reviewed.
-- NOT verified on a console: anything from 1.0.6 (frame rate of the calm and
-  gallery programs at 4K, USB mount paths and scanning speed, Ogg/Opus
-  stations, logos over libcurl, the crossfade by ear, beat sync on real
-  music), plus from earlier: loudness by ear, album art lookups, the 12 font
-  slots, the RGBA16F trails, `std::localtime`.
+- The owner has tested 1.0.6 on a PS5 (firmware 13.60, Relapse) and the
+  README says so. Which parts were checked was not itemised: frame rate of the
+  calm and gallery programs at 4K, USB mount paths, Ogg/Opus stations and
+  beat sync are worth a note if a problem is reported.
 - The radio plays on the console (owner confirmed for 1.0.3).
 
 ## Next milestones
 
-1. Console check of 1.0.6 (the list above); then release.
+1. Release 1.0.6: catalog pull request #323 is open.
 2. VJ Deck and Room Lights (1.1); Devanagari, Hangul and Arabic titles.
 3. Our own snd0.at9 (needs an ATRAC9 encoder; the kit's tool runs on Windows).
 4. Release: tagged GitHub release, catalog pull request adding only

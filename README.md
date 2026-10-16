@@ -1,17 +1,93 @@
+<div align="center">
+
+<img src="sce_sys/icon0.png" alt="Afterglow icon" width="128" height="128">
+
 # Afterglow
 
-Radio and visuals for PS5. A native homebrew app with 222 free internet radio
-stations in 17 genres (electronic music first, plus Bollywood & Desi, Latin,
-K-Pop, Afrobeats and Arabic), your own songs from a USB drive, and 56
-audio-reactive scenes drawn with OpenGL 4.6 that move in time with the music.
-The player changes its look with the genre, shows the album art of the song on
-air, announces every new song, keeps the songs you like, takes short commands
-("play bollywood 90s", "next", "show calm scenes"), and the visuals can run
-themselves like a VJ.
+**Radio and visuals for PS5.**
 
-> Status: in development. Earlier builds ran on a PS5 (firmware 13.60,
-> Relapse) and the radio plays there; this version is built and tested on a
-> PC and not yet confirmed on a console. Title ID PPSA47770.
+222 free internet radio stations in 17 genres, your own music from USB, and 56
+audio-reactive scenes that move in time with the beat.
+
+[![Release](https://img.shields.io/github/v/release/DevvNirvana/afterglow?label=release&color=e8a33d)](https://github.com/DevvNirvana/afterglow/releases/latest)
+[![Licence](https://img.shields.io/badge/licence-GPL--3.0--or--later-blue)](LICENSE)
+[![PS5](https://img.shields.io/badge/PS5-firmware%2013.60-0070d1)](#install)
+[![Title ID](https://img.shields.io/badge/title%20ID-PPSA47770-555)](#install)
+
+[Download](https://github.com/DevvNirvana/afterglow/releases/latest) ·
+[Screenshots](#screenshots) ·
+[Install](#install) ·
+[Controls](#controls) ·
+[Radio](#radio) ·
+[Build](#build)
+
+<a href="docs/screenshots/hero.jpg"><img src="docs/screenshots/hero.jpg" alt="Afterglow showing the Paint Swirl scene with the now-playing bar" width="880"></a>
+
+</div>
+
+Afterglow is a native homebrew app for the PS5 (OpenGL 4.6, no emulation, no
+web view). The player changes its look with the genre, shows the album art of
+the song on air, announces every new song, keeps the songs you like, takes short
+commands ("play bollywood 90s", "next", "show calm scenes"), and the visuals
+can run themselves like a VJ.
+
+> Status: tested on a PS5 (firmware 13.60, Relapse). Title ID PPSA47770.
+
+## Highlights
+
+- **222 stations, 17 genres.** Electronic first (Techno, House, Trance, Drum &
+  Bass, Bass, Hard Dance, EDM, Synthwave, Chill), then Pop, Hip-Hop, R&B,
+  Bollywood & Desi, Latin, K-Pop, Afrobeats and Arabic. Only public streams,
+  played live.
+- **56 scenes in six packs,** drawn with OpenGL shaders and tied to the music.
+  Paint Swirl opens the app.
+- **Beat sync.** The scenes lock to the measured tempo, and Auto-VJ cuts at the
+  end of a phrase.
+- **My Music.** Songs from a USB drive (MP3, AAC, Ogg Vorbis, Opus) with their
+  tags and covers.
+- **Genre skins.** Every channel dresses the whole screen in its own style.
+- **Commands.** Hold Triangle and type what you want.
+- **Crossfade, station logos, album art, liked songs.**
+
+## Screenshots
+
+Pictures rendered by the app's PC preview build, with a stand-in radio. The
+visuals are the same code and shaders as on the console.
+
+### Genre skins
+
+Moving through the channels, the whole screen changes its clothes: Techno,
+House, Trance, Synthwave, Bollywood, Latin, K-Pop, Afrobeats and Arabic.
+
+<a href="docs/screenshots/radio-genres.jpg"><img src="docs/screenshots/radio-genres.jpg" alt="Nine genre skins of the radio screen" width="880"></a>
+
+### Scenes
+
+| Gallery: art objects | Calm: for winding down |
+| :---: | :---: |
+| <a href="docs/screenshots/scenes-gallery.jpg"><img src="docs/screenshots/scenes-gallery.jpg" alt="Stained Glass, Kintsugi, Paper Cut, Origami, Ferrofluid, Crystal Growth" width="430"></a> | <a href="docs/screenshots/scenes-calm.jpg"><img src="docs/screenshots/scenes-calm.jpg" alt="Tide Pool, Aurora Veil, Lantern Drift, Moon Tide, Deep Sea Glow, Rain on Glass" width="430"></a> |
+| **Trip: psychedelic feedback** | **Club and Retro** |
+| <a href="docs/screenshots/scenes-trip.jpg"><img src="docs/screenshots/scenes-trip.jpg" alt="Wormhole, Kaleidoscope, Mirror Maze, Fractal Bloom, Vortex, Acid Bloom" width="430"></a> | <a href="docs/screenshots/scenes-club-retro.jpg"><img src="docs/screenshots/scenes-club-retro.jpg" alt="Liquid Chrome, Rave Tunnel, Strobe Lasers, Skyline, Mode Seven, Demo Plasma" width="430"></a> |
+
+### Around the app
+
+| Song card | Command box |
+| :---: | :---: |
+| <a href="docs/screenshots/song-card.jpg"><img src="docs/screenshots/song-card.jpg" alt="The song card announcing a new song" width="430"></a> | <a href="docs/screenshots/command-box.jpg"><img src="docs/screenshots/command-box.jpg" alt="The command box open over the radio" width="430"></a> |
+| **Scene list** | **Settings** |
+| <a href="docs/screenshots/scene-list.jpg"><img src="docs/screenshots/scene-list.jpg" alt="The scene list by pack" width="430"></a> | <a href="docs/screenshots/settings.jpg"><img src="docs/screenshots/settings.jpg" alt="The settings sheet" width="430"></a> |
+
+## Install
+
+1. Download `PPSA47770.zip` from the
+   [latest release](https://github.com/DevvNirvana/afterglow/releases/latest).
+2. Unzip it, so you have the `PPSA47770` folder.
+3. Copy that folder to `/data/homebrew/` on the console (FTP works).
+4. Wait about ten seconds for the console to register it, then launch
+   Afterglow from the home screen.
+
+It needs a PS5 on firmware 13.60 running the Relapse jailbreak. For your own
+music, plug a USB drive into the console; see [My Music](#radio).
 
 ## What is in it
 
