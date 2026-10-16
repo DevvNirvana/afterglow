@@ -1,0 +1,284 @@
+# Afterglow radio stations
+#
+# One station per line:  Category | Name | Style | Country | Format | Stream address
+# and, optionally, | Logo address (a PNG, JPEG, GIF or ICO the app fetches and
+# shows in the station list; logos come from Radio Browser too).
+# Lines starting with # are ignored. MP3, AAC/AAC+ (on the console), Ogg Vorbis
+# and Ogg Opus streams play; FLAC and HLS (.m3u8) do not yet.
+#
+# To use your own list without rebuilding, copy this file to the app's install
+# folder on the console as /data/homebrew/PPSA47770/stations.txt and edit it.
+# That copy is read instead of this one.
+#
+# Where these come from: every stream below passed Radio Browser's most recent
+# stream check (the public-domain directory at radio-browser.info, as built
+# into github.com/AlonDrilich/radio-playlists on 2026-10-12), except the
+# Nightride channels on stream.rekt.network, which come from the owner's own
+# working player. Streams move and go offline: the app's "Check stations"
+# tries every one on your console, and tools/check-stations.py does the same
+# from a PC. Afterglow plays each station's own public stream, like any radio
+# player; it does not copy or re-host it. Stations whose terms forbid
+# third-party players (SomaFM, for one) are left out on purpose. If a station
+# asks to be removed, it is removed.
+
+# ---- Techno ----
+Techno | Techno.FM | Techno | United Kingdom | MP3 320 | http://stream.techno.fm/radio320.mp3 | https://techno.fm/images/logos/logo_80px.png
+Techno | TechnoBase.FM | Techno / Hands Up | Germany | MP3 192 | https://listener3.mp3.tb-group.fm/tb.mp3 | https://cdn.onlineradiobox.com/img/l/0/32040.v12.png
+Techno | Technolovers Techno | Techno | Germany | MP3 192 | https://stream.technolovers.fm/techno | https://www.radio.pl/300/technoloverstechno.jpeg?version=ed66bf808cc50c4a7fe0f25b4f30d611
+Techno | Technolovers Minimal | Minimal Techno | Germany | MP3 192 | https://stream.technolovers.fm/minimal | https://i.postimg.cc/wjvp6CYj/technoloversminimal.jpg
+Techno | Technolovers Hypertechno | Hypertechno | Germany | MP3 192 | http://stream.technolovers.fm/hypertechno
+Techno | Sunshine Live Techno | Techno | Germany | MP3 192 | http://stream.sunshine-live.de/techno/mp3-192/stream.sunshine-live.de/
+Techno | Sunshine Live Melodic Techno | Melodic Techno | Germany | MP3 128 | https://stream.sunshine-live.de/melodic-techno/mp3-128/stream.sunshine-live.de/
+Techno | Sunshine Live Afterhour | Afterhour / Minimal | Germany | MP3 192 | http://stream.sunshine-live.de/sp7/mp3-192/stream.sunshine-live.de/
+Techno | RauteMusik Techno | Techno | Germany | MP3 192 | https://streams.rautemusik.fm/techno/mp3-192/
+Techno | 181.FM Techno Club | Techno / Club | USA | MP3 128 | http://listen.181fm.com/181-technoclub_128k.mp3
+Techno | 1.FM Deep Techno | Deep Techno / Deep House | Switzerland | MP3 256 | http://strm112.1.fm/deeptech_mobile_mp3
+Techno | Minimal Mix Radio | Minimal | Poland | MP3 320 | http://orion.shoutca.st:8750/
+Techno | Anima Amoris Dub Techno | Dub Techno | Russia | MP3 | http://amoris.sknt.ru/dubtechnomix.mp3
+Techno | Traxx FM Tech Minimal | Tech / Minimal | Switzerland | MP3 128 | http://traxx020.ice.infomaniak.ch/traxx020-low.mp3
+Techno | TEKNO1 | Techno | France | MP3 320 | http://cressida.shoutca.st:8591/stream/1/ | https://tekno1.fr/wp-content/uploads/2019/12/cropped-favi2020-192x192.png
+Techno | Radio Caprice Dark Techno | Dark Techno | Russia | AAC+ 320 | http://79.111.14.76:9139/
+Techno | Free Techno | Techno | Worldwide | OGG | https://icecast.apps.dj/freetechno
+Techno | Grooveline Radio | Techno | Worldwide | OGG | http://radio.grooveline.org:8000/auto
+
+# ---- House ----
+House | Deep Radio | Deep House | Netherlands | MP3 320 | http://stream.deep.radio/hd
+House | Technolovers House | House | Germany | MP3 192 | https://stream.technolovers.fm/house | https://i.postimg.cc/hvH6ntxk/technolovershouse.jpg
+House | Technolovers Deep House | Deep House | Germany | MP3 192 | https://stream.technolovers.fm/deep-house
+House | Technolovers Tech House | Tech House | Germany | MP3 192 | https://stream.technolovers.fm/techhouse | https://i.postimg.cc/wvPtVX5h/technoloverstechhouse.jpg
+House | Technolovers Afro House | Afro House | Germany | MP3 192 | https://stream.technolovers.fm/afro-house
+House | Technolovers Future House | Future House | Germany | MP3 192 | https://stream.technolovers.fm/future-house
+House | 1.FM Deep House | Deep House | Switzerland | MP3 256 | http://strm112.1.fm/deephouse_mobile_mp3
+House | Frisky | Progressive House | USA | MP3 96 | https://stream.frisky.friskyradio.com/frisky_mp3_high | https://s3.amazonaws.com/media.friskyradio.com/favicon.png
+House | Frisky Deep | Deep House | USA | MP3 96 | http://stream.deep.friskyradio.com/deep_mp3_high | https://s3.amazonaws.com/media.friskyradio.com/favicon.png
+House | Sunshine Live House | House | Germany | MP3 192 | http://stream.sunshine-live.de/house/mp3-192/stream.sunshine-live.de/
+House | Sunshine Live Tech House | Tech House | Germany | MP3 192 | http://stream.sunshine-live.de/sp4/mp3-192/stream.sunshine-live.de/
+House | RauteMusik House | House | Germany | MP3 192 | https://house-high.rautemusik.fm/
+House | RauteMusik Tech House | Tech House | Germany | MP3 192 | https://techhouse-high.rautemusik.fm/
+House | HouseTime.FM | House | Germany | AAC 256 | http://listen.housetime.fm/tunein-aac-hd-pls | https://housetime.fm/media/icons/ht/apple-touch-icon.png
+House | Ibiza Global Radio | Ibiza / House | Spain | MP3 | http://ibizaglobalradio.streaming-pro.com:8024/
+House | NYC House Radio | House | USA | MP3 128 | http://www.ophanim.net:8400/;
+House | Ppeople FM House | Deep House | Ukraine | OGG | http://ppeople.fm:8000/main
+
+# ---- Trance ----
+Trance | Technolovers Trance | Trance | Germany | MP3 192 | https://stream.technolovers.fm/trance | https://i.postimg.cc/g2nVbH46/technoloverstrance.jpg
+Trance | Technolovers Uplifting Trance | Uplifting Trance | Germany | MP3 192 | https://stream.technolovers.fm/uplifting-trance
+Trance | Technolovers Vocal Trance | Vocal Trance | Germany | MP3 192 | https://stream.technolovers.fm/vocal-trance | https://i.postimg.cc/j5JqRGN7/technoloversvocaltrance.jpg
+Trance | Technolovers Psytrance | Psytrance | Germany | MP3 192 | https://stream.technolovers.fm/psytrance
+Trance | 1.FM Amsterdam Trance | Trance | Switzerland | MP3 256 | http://strm112.1.fm/atr_mobile_mp3
+Trance | 1.FM Absolute Trance | Euro Trance | Switzerland | MP3 256 | http://strm112.1.fm/trance_mobile_mp3
+Trance | 1.FM BOM Psytrance | Psytrance | Switzerland | MP3 256 | http://strm112.1.fm/psytrance_mobile_mp3
+Trance | RauteMusik Trance | Trance | Germany | MP3 192 | https://trance-high.rautemusik.fm/
+Trance | DiscoverTrance Radio | Trance | Russia | MP3 192 | http://uk01.discovertrance.com//
+Trance | TranceBase.FM | Trance | Germany | AAC 256 | http://listen.trancebase.fm/tunein-aac-hd-pls | https://www.trancebase.fm/media/icons/trb/apple-touch-icon.png
+Trance | Trance Athena | Trance | Greece | MP3 320 | http://cast.streams.ovh:8008/stream
+Trance | Psyndora Psytrance | Psytrance | Greece | MP3 128 | http://cast.magicstreams.gr:9111/stream | https://www.psyndora.com/images/favicon-144x144.png
+Trance | 1Mix Radio Trance | Trance | United Kingdom | MP3 192 | http://fr2.1mix.co.uk:8060/192
+Trance | Record Trancemission | Trance | Russia | AAC 96 | https://radiorecord.hostingradio.ru/tm96.aacp | https://radiorecord.ru/icons/apple-touch-icon.png
+Trance | SerrebiRadio HD | Trance / EDM | Worldwide | OGG 320 | https://radio.serrebiradio.com/listen/serrebiradio/SerrebiRadioHD
+
+# ---- Drum & Bass ----
+Drum & Bass | Bassdrive | Drum & Bass | USA | MP3 128 | http://chi.bassdrive.co/ | https://thumbnailer.mixcloud.com/unsafe/160x160/extaudio/8/5/8/a/f8e6-9555-4eb9-8005-1ec4dabd55ce.jpg
+Drum & Bass | DnBRadio | Drum & Bass | United Kingdom | MP3 320 | https://fw.dnbradio.com/dnbradio_main.mp3 | https://dnbradio.com/img/logotags.png
+Drum & Bass | DnBRadio Darkstep | Darkstep / Neurofunk | Germany | MP3 128 | http://trace.dnbradio.com:8000/dnbradio_darkstep.mp3 | https://i.imgur.com/txk5cnh.jpg
+Drum & Bass | Technolovers Drum n Bass | Drum & Bass | Germany | MP3 192 | https://stream.technolovers.fm/drummnbass
+Drum & Bass | Sunshine Live Drum n Bass | Drum & Bass | Germany | MP3 192 | http://stream.sunshine-live.de/dnb/mp3-192/stream.sunshine-live.de/
+Drum & Bass | Algorythme Drum & Bass | Drum & Bass | France | MP3 128 | https://radio9.pro-fhi.net/flux-endvtlna/stream | https://www.algorythmeradio.com/assets/images/icon-algo.ico
+Drum & Bass | Kniteforce Radio | Jungle / Breakbeat Hardcore | United Kingdom | MP3 192 | https://kniteforce.out.airtime.pro/kniteforce_a
+Drum & Bass | Dutch Delite Drum and Bass | Drum & Bass | Netherlands | MP3 256 | http://radio.dutchdelite.nl:8000/dnb
+Drum & Bass | DNB FM | Drum & Bass | Russia | MP3 320 | https://air.dnbfm.ru/listen/player/qplay
+Drum & Bass | Record Neurofunk | Neurofunk | Russia | AAC 96 | https://radiorecord.hostingradio.ru/neurofunk96.aacp | https://radiorecord.ru/icons/apple-touch-icon.png
+Drum & Bass | Record Liquid Funk | Liquid | Russia | AAC 96 | https://radiorecord.hostingradio.ru/liquidfunk96.aacp | https://www.radiorecord.ru/local/templates/record/assets/build/favicon-set/apple-touch-icon.png
+Drum & Bass | Rekt Network | Drum & Bass | Australia | OGG | https://stream.rekt.network/rekt.ogg
+
+# ---- Bass & Dubstep ----
+Bass & Dubstep | 1.FM Dubstep Forward | Dubstep | Switzerland | MP3 256 | http://strm112.1.fm/dubstep_mobile_mp3
+Bass & Dubstep | RauteMusik Bass | Bass / Dubstep | Germany | MP3 192 | https://bass-high.rautemusik.fm/
+Bass & Dubstep | Sub FM | Dubstep / Grime | United Kingdom | MP3 192 | https://subfm.radioca.st/ | https://www.sub.fm/wp-content/uploads/2016/03/Sub-FM-FB-Logo.jpg
+Bass & Dubstep | Fed's Trap Radio | Trap / Bass | Czechia | MP3 192 | https://backend.fedstrapradio.com:8000/radio.mp3
+Bass & Dubstep | Technolovers Bass House | Bass House | Germany | MP3 192 | https://stream.technolovers.fm/bass-house
+Bass & Dubstep | Record Future Bass | Future Bass | Russia | AAC 96 | https://radiorecord.hostingradio.ru/fbass96.aacp
+Bass & Dubstep | Record Phonk | Phonk | Russia | AAC 96 | http://radiorecord.hostingradio.ru/phonk96.aacp
+
+# ---- Hard Dance ----
+Hard Dance | HardBase.FM | Hardstyle / Hardcore | Germany | MP3 192 | http://mp3.stream.tb-group.fm/hb.mp3
+Hard Dance | Technolovers Hardstyle | Hardstyle | Germany | MP3 192 | https://stream.technolovers.fm/hardstyle
+Hard Dance | Technolovers Hardcore | Hardcore | Germany | MP3 192 | https://stream.technolovers.fm/hardcore
+Hard Dance | Technolovers Frenchcore | Frenchcore | Germany | MP3 192 | https://stream.technolovers.fm/frenchcore
+Hard Dance | Technolovers Gabber | Gabber | Germany | MP3 192 | https://stream.technolovers.fm/gabber
+Hard Dance | RauteMusik Harder | Hardstyle / Hard Techno | Germany | MP3 192 | https://harder-high.rautemusik.fm/
+Hard Dance | RauteMusik Happy Hardcore | Happy Hardcore | Germany | MP3 192 | https://happyhardcore-high.rautemusik.fm/
+Hard Dance | Sunshine Live Hard | Hard Techno / Hardstyle | Germany | MP3 192 | http://stream.sunshine-live.de/hard/mp3-192/stream.sunshine-live.de/
+Hard Dance | Record Hardstyle | Hardstyle | Russia | AAC 96 | https://radiorecord.hostingradio.ru/teo96.aacp
+
+# ---- EDM & Dance ----
+EDM & Dance | Intense Radio | Dance / Trance | Netherlands | MP3 256 | https://secure.live-streams.nl/main | https://www.intenseradio.net/wp-content/uploads/2023/09/intense-radio-vierkant-4d-2026.jpg
+EDM & Dance | Technolovers EDM | EDM | Germany | MP3 192 | https://stream.technolovers.fm/edm
+EDM & Dance | Technolovers Electro House | Electro House | Germany | MP3 192 | https://stream.technolovers.fm/electro-house
+EDM & Dance | Technolovers Hands Up | Hands Up | Germany | MP3 192 | https://stream.technolovers.fm/handsup
+EDM & Dance | Sunshine Live EDM | EDM | Germany | MP3 192 | http://stream.sunshine-live.de/edm/mp3-192/stream.sunshine-live.de/
+EDM & Dance | Sunshine Live Festival | Festival Mainstage | Germany | MP3 192 | http://stream.sunshine-live.de/festival/mp3-192/stream.sunshine-live.de/
+EDM & Dance | PulseEDM | EDM | USA | MP3 128 | http://pulseedm.cdnstream1.com:8124/1373_128
+EDM & Dance | 181.FM Energy 98 | Dance Hits | USA | MP3 128 | http://listen.181fm.com/181-energy98_128k.mp3
+EDM & Dance | 181.FM Energy 93 | Euro EDM | USA | MP3 128 | https://listen.181fm.com/181-energy93_128k.mp3
+EDM & Dance | 1.FM Club 1 | Club | Switzerland | MP3 256 | http://strm112.1.fm/club_mobile_mp3
+EDM & Dance | 1.FM Dance One | Dance | Switzerland | MP3 256 | http://strm112.1.fm/dance_mobile_mp3
+EDM & Dance | 1Mix EDM Radio | EDM | United Kingdom | MP3 320 | http://fr1.1mix.co.uk:8060/
+EDM & Dance | Generation Dance Radio | Dance | Luxembourg | MP3 192 | http://generationdance.lu/radio/8030/hd | https://generation.dance/logo_500x500.png
+EDM & Dance | RauteMusik Club | Club / Dance | Germany | MP3 192 | http://club-high.rautemusik.fm/
+EDM & Dance | BigCityBeats | Dance / Club | Germany | MP3 192 | https://stream.bigcitybeats.de/bcb-radio/mp3-192/radiobrowser
+EDM & Dance | Dance Wave! | Dance | Hungary | OGG 160 | https://dancewave.online/dance.ogg
+EDM & Dance | Dance Wave Retro! | Retro Dance | Hungary | OGG 160 | https://dancewave.online/retrodance.ogg
+EDM & Dance | WirelessPhreak Radio | EDM | Worldwide | OGG | https://radio.phreakn.tel/stream.ogg
+
+# ---- Synthwave ----
+Synthwave | Nightride FM | Synthwave | Worldwide | MP3 320 | https://stream.rekt.network/nightride.mp3
+Synthwave | Nightride Chillsynth | Chillsynth | Worldwide | MP3 320 | https://stream.nightride.fm/chillsynth.mp3 | https://nightride.fm/thumbnail.png
+Synthwave | Nightride Darksynth | Darksynth | Worldwide | MP3 320 | https://stream.rekt.network/darksynth.mp3
+Synthwave | Nightride Datawave | Datawave | Worldwide | MP3 320 | https://stream.rekt.network/datawave.mp3
+Synthwave | Nightride Spacesynth | Spacesynth | Worldwide | MP3 320 | https://stream.nightride.fm/spacesynth.mp3 | https://nightride.fm/thumbnail.png
+Synthwave | Nightride EBSM | EBM / Industrial | Worldwide | MP3 320 | https://stream.rekt.network/ebsm.mp3
+Synthwave | Nightride Horrorsynth | Horrorsynth | Worldwide | MP3 320 | https://stream.rekt.network/horrorsynth.mp3
+Synthwave | Nightwave Plaza | Vaporwave / Future Funk | Worldwide | MP3 | http://radio.plaza.one/mp3 | https://plaza.one/icons/apple-touch-icon.png?v=7knqx0ar5k
+Synthwave | Rainwave Chiptune | Chiptune | Worldwide | OGG | http://allrelays.rainwave.cc/chiptune.ogg
+
+# ---- Chill & Electronica ----
+Chill & Electronica | 1.FM Afterbeat Electronica | Electronica | Switzerland | MP3 256 | http://strm112.1.fm/electronica_mobile_mp3
+Chill & Electronica | 1.FM Ambient Psychill | Psychill | Switzerland | MP3 256 | http://strm112.1.fm/ambientpsy_mobile_mp3
+Chill & Electronica | 1.FM Chillout Lounge | Chillout | Switzerland | MP3 256 | http://strm112.1.fm/chilloutlounge_mobile_mp3
+Chill & Electronica | Frisky Chill | Chillout | USA | MP3 96 | http://chill.friskyradio.com/friskychill_mp3_high | https://s3.amazonaws.com/media.friskyradio.com/favicon.png
+Chill & Electronica | Sunshine Live Chillout | Chillout | Germany | MP3 192 | http://stream.sunshine-live.de/sp8/mp3-192/stream.sunshine-live.de/
+Chill & Electronica | 181.FM Chilled Out | Chillout | USA | MP3 128 | http://listen.181fm.com/181-chilled_128k.mp3
+Chill & Electronica | Record Ambient | Ambient | Russia | AAC 96 | http://radiorecord.hostingradio.ru/ambient96.aacp | https://cdn-profiles.tunein.com/s309967/images/logod.jpg?t=1
+Chill & Electronica | Rainwave Chill | Chillout | Worldwide | OGG | https://relay.rainwave.cc/chill.ogg
+Chill & Electronica | r2chill | Chill | Estonia | OPUS | http://icecast.err.ee/r2chill.opus
+Chill & Electronica | Radio Sector Space | Space / Ambient | Russia | OGG 192 | http://89.223.45.5:8000/space-160
+
+# ---- Pop & Hits ----
+Pop & Hits | 181.FM Power 181 | Top 40 | USA | MP3 128 | http://listen.181fm.com/181-power_128k.mp3
+Pop & Hits | 181.FM UK Top 40 | UK Top 40 | USA | MP3 128 | http://listen.181fm.com/181-uktop40_128k.mp3
+Pop & Hits | 2000 FM Top 40 | Top 40 | USA | MP3 128 | http://bigrradio.cdnstream1.com/5106_128
+Pop & Hits | 100hitz Top 40 | Top 40 | USA | MP3 128 | http://pureplay.cdnstream1.com/6025_128.mp3
+Pop & Hits | 100hitz Hot Hitz | Today's Hits | USA | MP3 128 | http://pureplay.cdnstream1.com/6027_128.mp3
+Pop & Hits | Miami Beach Radio | Pop / Dance | USA | MP3 128 | https://streaming.radiostreamlive.com/miamibeachradio_devices | https://cdn-elements.radiostreamlive.com/v1/images/favicon.ico
+Pop & Hits | 1.FM Absolute Top 40 | Top 40 | Switzerland | MP3 256 | http://strm112.1.fm/top40_mobile_mp3
+Pop & Hits | RauteMusik Top 40 | Top 40 | Germany | MP3 192 | https://top40-high.rautemusik.fm/
+Pop & Hits | RauteMusik ChartHits | Charts | Germany | MP3 192 | https://charthits-high.rautemusik.fm/
+Pop & Hits | RauteMusik Party Hits | Party | Germany | MP3 192 | https://partyhits-high.rautemusik.fm/
+Pop & Hits | Sunshine Live Charts | Dance Charts | Germany | MP3 192 | http://stream.sunshine-live.de/sp6/mp3-192/stream.sunshine-live.de/
+Pop & Hits | SLAM! | Dance / Hits | Netherlands | MP3 128 | http://stream.slam.nl/slam | https://www.slam.nl/favicon.ico
+
+# ---- Hip-Hop & Rap ----
+Hip-Hop & Rap | 181.FM The Beat | Hip-Hop / R&B | USA | MP3 128 | https://listen.181fm.com/181-beat_128k.mp3
+Hip-Hop & Rap | 181.FM Old School | Old School Hip-Hop | USA | MP3 128 | http://listen.181fm.com/181-oldschool_128k.mp3
+Hip-Hop & Rap | 2000 FM Hip-Hop | Hip-Hop / R&B | USA | MP3 128 | http://bigrradio.cdnstream1.com/5105_128
+Hip-Hop & Rap | 100hitz Hip Hop | Hip-Hop | USA | MP3 128 | http://pureplay.cdnstream1.com/6042_128.mp3
+Hip-Hop & Rap | All Underground Hip Hop | Underground Hip-Hop | USA | MP3 | http://stream.radiojar.com/c1912tk5rtzuv | https://www.wix.com/favicon.ico
+Hip-Hop & Rap | Gangstaville Radio | West Coast / G-Funk | USA | MP3 128 | http://stream.radio.co/s1cffd7347/listen
+Hip-Hop & Rap | 1.FM Jamz | Hip-Hop / R&B | Switzerland | MP3 256 | http://strm112.1.fm/jamz_mobile_mp3
+Hip-Hop & Rap | RauteMusik Jam | Hip-Hop / R&B | Germany | MP3 192 | https://jam-high.rautemusik.fm/
+Hip-Hop & Rap | RauteMusik Trap | Trap | Germany | MP3 192 | https://trap-high.rautemusik.fm/
+Hip-Hop & Rap | 90s90s Hip-Hop & Rap | 90s Hip-Hop | Germany | MP3 192 | http://streams.90s90s.de/hiphop/mp3-192/streams.90s90s.de/
+Hip-Hop & Rap | NPO FunX Hip Hop | Hip-Hop | Netherlands | MP3 | http://icecast.omroep.nl/funx-hiphopfb-bb-mp3 | https://www.funx.nl/apple-touch-icon.png
+Hip-Hop & Rap | Skyrock | French Rap | France | MP3 128 | http://icecast.skyrock.net/s/natio_mp3_128k | https://play-lh.googleusercontent.com/dPiQ01OUKZVfRZUbbb-EVK5g9miS_K-xrxHgmBbynGG-GQ53yt3GzFKr0zUTnb-xswQ=s200-rw
+Hip-Hop & Rap | Radio 105 HipHop & RnB | Hip-Hop / R&B | Italy | MP3 128 | http://icy.unitedradio.it/105HipHopRnB.mp3
+
+# ---- R&B & Soul ----
+R&B & Soul | 181.FM True R&B | R&B | USA | MP3 128 | https://listen.181fm.com/181-rnb_128k.mp3
+R&B & Soul | 181.FM Soul | Soul | USA | MP3 128 | https://listen.181fm.com/181-soul_128k.mp3
+R&B & Soul | 1.FM Slow Jamz | Slow Jams | Switzerland | MP3 256 | http://strm112.1.fm/slowjamz_mobile_mp3
+R&B & Soul | 1.FM Adult Urban Hits | Urban / Old School | Switzerland | MP3 256 | http://strm112.1.fm/oldschool_mobile_mp3
+
+# ---- Bollywood & Desi ----
+# From Radio Browser's India list (and Indian music stations elsewhere) as
+# built on 2026-10-12: only streams that passed its last check, MP3 or AAC,
+# none on HLS, none on links that expire. Not yet checked on a console:
+# run "Check stations" in the radio. Song titles in Devanagari or other
+# Indian scripts do not draw yet (the fonts are Latin); most of these
+# stations send their titles in Latin letters.
+Bollywood & Desi | 1.FM Bombay Beats | Bollywood / Desi Dance | Switzerland | MP3 256 | http://strm112.1.fm/bombaybeats_mobile_mp3
+Bollywood & Desi | Hits Of Bollywood | Bollywood Hits | India | MP3 128 | http://stream.zeno.fm/8ty8szwpwfeuv
+Bollywood & Desi | Bollywood Dance | Bollywood Dance | India | MP3 128 | https://drive.uber.radio/uber/bollywooddance/icecast.audio
+Bollywood & Desi | Bollywood Workout | Workout / Dance | India | MP3 128 | https://drive.uber.radio/uber/bollywoodworkout/icecast.audio
+Bollywood & Desi | Bollywood 2010s | 2010s Bollywood | India | MP3 128 | https://drive.uber.radio/uber/bollywood2010s/icecast.audio
+Bollywood & Desi | Bollywood 2000s | 2000s Bollywood | India | MP3 128 | https://drive.uber.radio/uber/bollywood2000s/icecast.audio
+Bollywood & Desi | Radio Bollywood 90s | 90s Bollywood | India | MP3 128 | https://stream.zeno.fm/rm4i9pdex3cuv | https://static.mytuner.mobi/media/tvos_radios/9fKKkfbJKE.png
+Bollywood & Desi | Bollywood Love | Romantic Bollywood | India | MP3 128 | https://drive.uber.radio/uber/bollywoodlove/icecast.audio
+Bollywood & Desi | Arijit Singh Radio | Arijit Singh | India | MP3 128 | https://drive.uber.radio/uber/bollywoodaruitsingh/icecast.audio | https://radiosindia.com/images/arijitsingh.jpg
+Bollywood & Desi | Shuddh Desi Radio | Desi Hits | India | MP3 192 | https://streamer.radio.co/se30891e37/listen | https://onlineradiohub.com/wp-content/uploads/2023/08/shuddh-desi-radio.jpg
+Bollywood & Desi | Radio Bolly Bop | Bollywood Pop | New Zealand | MP3 128 | https://s3.radio.co/s2f19d44d0/listen
+Bollywood & Desi | Bollywood Bangers | Bollywood Party | Sweden | MP3 | https://mml2.prostream.se/listen/bollywood_bangers/radio.mp3 | https://madmix.se/images/logo.jpg
+Bollywood & Desi | ADRN Bollywood Today | Bollywood Hits | Australia | MP3 128 | http://abm21.com.au:8000/CONTAINER116
+Bollywood & Desi | Tune India Radio | Indian Hits | India | AAC 96 | https://s2.radio.co/se5e166e2f/listen
+Bollywood & Desi | Bollywood Gaane Purane | Classic Bollywood | India | MP3 128 | https://stream.zeno.fm/6n6ewddtad0uv | https://mytuner.global.ssl.fastly.net/media/tvos_radios/ppqbgfej6skx.jpeg
+Bollywood & Desi | Hindi Retro | Retro Hindi | India | MP3 128 | https://stream.zeno.fm/v2zfmxef798uv | https://onlineradiohub.com/wp-content/uploads/2023/05/mirchi-retro-hindi.jpg
+Bollywood & Desi | Hits Of Lata Mangeshkar | Lata Mangeshkar | India | MP3 128 | http://stream.zeno.fm/g95zm67prfhvv
+Bollywood & Desi | Hits Of Mohammed Rafi | Mohammed Rafi | India | MP3 128 | http://stream.zeno.fm/0zkr7x8ztm0uv
+Bollywood & Desi | Kishore Kumar Radio | Kishore Kumar | India | MP3 128 | https://stream.zeno.fm/0ghtfp8ztm0uv | https://radiosindia.com/images/kishorekumarradio.jpg
+Bollywood & Desi | Radio Pak Filmi | Filmi Classics | Pakistan | MP3 128 | http://s17.ssl-stream.com:8214/stream | https://hpanel.hostinger.com/favicons/hostinger.png
+Bollywood & Desi | Mohabbat Radio Punjabi | Punjabi | India | MP3 128 | http://stream.zeno.fm/t2ekq8zsgtzuv | https://onlineradiohub.com/wp-content/uploads/2022/01/mohabbat-radio-punjabi.jpg
+Bollywood & Desi | Bol Punjabi Radio | Punjabi | India | MP3 128 | https://bolpunjabi-ekamsoftware.radioca.st/stream | https://onlineradiohub.com/wp-content/uploads/2022/01/bol-punjabi.jpg
+Bollywood & Desi | Tamil Sun FM | Tamil | India | MP3 320 | https://usa2.fastcast4u.com/proxy/tamilsun?mp=/; | https://onlineradiohub.com/wp-content/uploads/2023/12/tamil-sun-fm-1.jpg
+
+# ---- Latin ----
+Latin | Chocolate FM HD | Reggaeton / Latin Pop | Spain | MP3 320 | http://streaming5.elitecomunicacion.es:8030/live.mp3 | https://www.chocolatefm.com/apple-touch-icon.png
+Latin | 1.FM Absolute Pop Latino | Latin Pop | Switzerland | MP3 256 | http://strm112.1.fm/latino_mobile_mp3
+Latin | RauteMusik Caribbean Wave | Reggaeton / Caribbean | Germany | MP3 192 | https://streams.rautemusik.fm/caribbean-wave/mp3-192/?ref=radiobrowser | https://i.ibb.co/nL15LGH/cw.jpg
+Latin | 0nlineradio Latin | Latin / Urbano | Germany | MP3 192 | https://stream.0nlineradio.com/latin?ref=radiobrowser
+Latin | Radio Company Reggaetown | Reggaeton | Italy | MP3 192 | https://sphera.fluidstream.eu/companyreggaetown.mp3 | https://www.radiocompany.com/wp-content/uploads/fbrfg/apple-touch-icon.png
+Latin | Your Latin Radio | Reggaeton / Salsa / Tropical | International | MP3 192 | https://radio.yourlatinradio.com/listen/ylr/radio.mp3 | https://usercontent.one/wp/www.yourlatinradio.com/wp-content/uploads/2020/06/cropped-Mockup-AppIcon-512px-192x192.png
+Latin | Brutal 91.9 FM | Reggaeton | Colombia | MP3 192 | https://streamingmediaradio.live/8086/stream
+Latin | Loca FM Urban | Urbano / Reggaeton | Spain | MP3 160 | http://locafm02.we4stream.com:8015/live
+Latin | Latina Reggaeton | Reggaeton | France | MP3 128 | https://latinareggaeton.ice.infomaniak.ch/latinareggaeton.mp3 | https://bocir-prod-bucket.s3.eu-west-1.amazonaws.com/radios/latina/images/favicon.ico
+Latin | Allzic Radio Latino | Latin | France | MP3 128 | http://allzic39.ice.infomaniak.ch/allzic39.mp3 | https://www.allzicradio.com/apple-touch-icon-120x120.png
+Latin | Clasicos Reggaeton 24/7 | Old School Reggaeton | Colombia | MP3 128 | https://stream.zeno.fm/2g1qkn4cbpeuv | https://zeno.fm/_ipx/_/https://images.zeno.fm/jjnexd9Q7Pu1IeghXI97tyzdr-QXOIrPtMzc_8NBgWU/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJREEzSXp4LXdrTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ0FnTURoaWdvTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTcwNTAxMDA2ODAwMA.webp
+Latin | Stereo Beso 94.5 FM | Latin / Salsa / Reggaeton | Nicaragua | MP3 320 | https://a9.asurahosting.com:7140/radio.mp3 | https://cdn-profiles.tunein.com/s240544/images/logod.png
+Latin | El Nuevo Zol 106.7 | Latin / Salsa | USA | AAC 320 | https://liveaudio.lamusica.com/MIA_WXDJ_icy | https://radiostationusa.fm/assets/image/radio/180/WXDJ.png
+Latin | Caracas Salsa Brava | Salsa | Venezuela | AAC 160 | https://stream.zeno.fm/fq0c9ohszctuv | https://zeno.fm/_ipx/f_webp&q_100&fit_cover&s_160x160/https://images.zeno.fm/SYCYOPUdV8Ho1PV7IQG4SeglGWv_yN7Z6_lpsMRbNIY/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvZDRiNGE4NjgtNzIyNi00NTZkLTk5ZmUtZDNkYTA0ZmM4YmU4L2ltYWdlLz91PTE3Mjk1OTIxNTAwMDA.webp
+Latin | Tropicana Bogota | Salsa / Tropical | Colombia | MP3 128 | http://26503.live.streamtheworld.com/TROPICANA_SC | https://www.tropicanafm.com/wp-content/uploads/2021/02/cropped-favicon_tropicana-180x180.png
+Latin | Dominicana FM | Bachata / Merengue | Dominican Republic | MP3 256 | https://protvradiostream.com:8610/; | https://dominicanafmrd.com/wp-content/uploads/2022/08/cropped-DFM-32x32.png
+
+# ---- K-Pop ----
+K-Pop | RauteMusik K-Pop | K-Pop | Germany | MP3 192 | https://streams.rautemusik.fm/k-pop/mp3-192?ref=radiobrowser | https://i.ibb.co/Kbvr4xf/k-pop-400x400.jpg
+K-Pop | 0N K-Pop on Radio | K-Pop | Germany | MP3 128 | https://0n-kpop.radionetz.de/0n-kpop.mp3 | https://www.0nradio.com/logos/0n-k-pop_600x600.jpg
+K-Pop | Only Hits K-Pop | K-Pop | USA | MP3 128 | https://cdn.onlyhitsradio.net/kpop | https://cdn.onlyhitsradio.net/logo/kpop.png
+K-Pop | Big B Radio K-Pop | K-Pop | International | MP3 192 | https://antares.dribbcast.com/proxy/kpop?mp=/s
+K-Pop | LISTEN.moe K-Pop | K-Pop | International | MP3 192 | https://listen.moe/kpop/fallback | https://listen.moe/favicon.ico
+K-Pop | World Music Radio K-Pop | K-Pop | International | MP3 128 | https://streaming.exclusive.radio/er/kpop/icecast.audio
+K-Pop | HIT FM K-Pop Hits | K-Pop Hits | Moldova | AAC 128 | https://radio3.dixi.md/listen/kpop_hits/kpop_hits.aac | https://hitfm.md/favicon.png?v=2
+K-Pop | City K-Pop | K-Pop | Bulgaria | AAC 128 | https://play.global.audio/citykpophi.aac
+K-Pop | 100% K-Pop | K-Pop | Israel | AAC 128 | https://gb25.streamgates.net/radios-audio/100kpop/icecast.audio | https://d203uamca1bsc4.cloudfront.net/app/thumbnails/t-kpop.png
+K-Pop | K-Pop 24 | K-Pop | Ukraine | AAC 128 | https://lux.radio.tvstitch.com/k-pop-sd | https://slukhay.com/uploads/2026/2/12/bfd86efc-78e8-4124-8815-c8849ca2a1b7.png
+K-Pop | Conexion K-Pop | K-Pop | Peru | MP3 128 | https://stream.laut.fm/conexionkpop | https://conexionkpop.com/conexionkpop.png
+K-Pop | Conexion K-Pop Girl Groups | K-Pop Girl Groups | Peru | MP3 128 | https://stream.laut.fm/conexiongirlsgroups | https://conexionkpop.com/conexiongirls.png
+K-Pop | Korean City Pop | City Pop | South Korea | MP3 128 | http://65.21.61.215:8000/citypoptwo
+
+# ---- Afrobeats ----
+Afrobeats | WDR COSMO Afrobeats | Afrobeats | Germany | MP3 128 | https://wdr-cosmo-afrobeat.icecastssl.wdr.de/wdr/cosmo/afrobeat/mp3/128/stream.mp3 | https://www1.wdr.de/radio/cosmo/resources-v5.128.1/img/favicon/favicon-32x32.png
+Afrobeats | Technolovers Afro House | Afro House | Germany | MP3 192 | https://stream.technolovers.fm/afro-house?ref=radiobrowser
+Afrobeats | Amapiano FM | Amapiano | South Africa | MP3 128 | https://stream.zeno.fm/xs6zeac1ts8uv | https://cdn.webrad.io/images/logos/radiosa-org/amapiano.png
+Afrobeats | Afrobeats FM | Afrobeats | South Africa | MP3 128 | https://audio.afrobeatsfm.com:8443/; | https://afrobeatsfm.com/logo.jpg
+Afrobeats | Afrobeat Radio | Afrobeats | South Africa | MP3 128 | https://broadcast.icast.world/listen/afrobeatradio/radio.mp3 | https://afrobeatradio.org/assets/images/iso-ar-clr.webp
+Afrobeats | Afrobeat N1 FM | Afrobeats | South Africa | MP3 128 | https://streamer.radio.co/s919e54210/listen
+Afrobeats | Cool FM Lagos | Afrobeats / Naija Pop | Nigeria | MP3 128 | https://coolfmlagos969-atunwadigital.streamguys1.com/coolfmlagos969 | https://cdn.onlineradiobox.com/img/l/3/6733.v14.png
+Afrobeats | Wazobia FM Lagos | Naija Pop | Nigeria | MP3 128 | https://wazobiafmlagos951-atunwadigital.streamguys1.com/wazobiafmlagos951 | https://cdn.onlineradiobox.com/img/l/4/6654.v11.png
+Afrobeats | Softlife Afrofusion Radio | Afrofusion | Nigeria | MP3 128 | https://a10.asurahosting.com:7540/radio.mp3 | https://forwardmystream.com/stations/300/softlifeafrofusionradio-6653.jpg
+Afrobeats | YFM Kumasi | Afrobeats / Hiplife | Ghana | MP3 256 | https://atunwadigital.streamguys1.com/yfm1025kumasi | https://cdn-profiles.tunein.com/s187342/images/logoq.jpg?t=158644
+Afrobeats | YFM Accra | Afrobeats / Hiplife | Ghana | MP3 128 | https://atunwadigital.streamguys1.com/yfm1079accra | https://cdn-profiles.tunein.com/s208875/images/logog.jpg?t=157140
+Afrobeats | Urban Afro | Afro / Urban | France | MP3 128 | https://urbanhitblack.ice.infomaniak.ch/urbanhitblack128.mp3 | https://bocir-prod-bucket.s3.eu-west-1.amazonaws.com/radios/urbanhit/images/favicon.vnd.microsoft.icon
+Afrobeats | World Music Radio Afrobeats | Afrobeats | International | MP3 128 | https://streaming.exclusive.radio/er/afrobeats/icecast.audio
+Afrobeats | Radio 80 Afro | Afro Disco / Funk | Italy | MP3 192 | https://sphera.fluidstream.eu/r80_afro.mp3 | https://www.radio80.it/wp-content/uploads/2015/02/logo-radio80-1.ico
+
+# ---- Arabic ----
+Arabic | Arab Mix FM | Arabic Pop | Egypt | MP3 128 | https://stream.zeno.fm/na3vpvn10qruv | https://promix.neocities.org/FM.png
+Arabic | Amr Diab Radio | Arabic Pop | Egypt | MP3 128 | https://stream.zeno.fm/xa4yhh4k838uv
+Arabic | Mazaj FM | Arabic Pop | Jordan | MP3 192 | https://mazajfm.ice.infomaniak.ch/mazajfm-192.mp3 | https://mazaj.fm/apple-touch-icon.png
+Arabic | Radio Dahab | Classic Arabic | Jordan | MP3 192 | https://dahab.ice.infomaniak.ch/dahab-192.mp3
+Arabic | Mood FM 92 | Arabic & Western Hits | Jordan | MP3 128 | https://securestreams2.autopo.st:1241/live
+Arabic | Al Bal Radio | Arabic 80s & 90s | Lebanon | MP3 128 | https://albal-lbnet2.radioca.st/stream.mp3 | https://www.albalradio.com/favicon.ico
+Arabic | Sawt El Ghad Tarab | Tarab | Lebanon | MP3 128 | https://sawtelghad.org:7007/; | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7bT8sxvjzHGaSGYnFogkr7zWi0Fjubf_E-lKsH42c7g&s=10
+Arabic | Aswat FM | Arabic & Moroccan Hits | Morocco | MP3 128 | https://broadcast.ice.infomaniak.ch/aswat-high.mp3 | https://radioaswat.ma/favicon.ico
+Arabic | Hit Radio | Hits / Urban | Morocco | MP3 128 | https://hitradio-maroc.ice.infomaniak.ch/hitradio-maroc-128.mp3
+Arabic | Yabiladi Chaabi | Moroccan Chaabi | Morocco | MP3 128 | https://radio.yabiladi.com:8102/;stream.mp3 | https://static.yabiladi.com/images_new/logo_2_yab.png?4
+Arabic | Hits 1 Algerie | Rai / Algerian Hits | Algeria | MP3 256 | https://radio12.pro-fhi.net/listen/whmnrlow/stream
+Arabic | Fayroz | Fairuz Classics | Morocco | MP3 128 | https://stream.zeno.fm/zv3e5wykprhvv.mp3

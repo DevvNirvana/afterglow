@@ -1,0 +1,46 @@
+# Platform-neutral application sources compiled into build/tests/unit_tests.
+# One repository-relative path (or glob) per line; '#' starts a comment.
+# Nothing here may need OpenGL: the designs only record draw lists, and the
+# shell's composition lives in src/app/shell_render.cpp, which is left out.
+host/platform_host.cpp
+host/net_host.cpp
+host/aac_host.cpp
+src/app/shell.cpp
+src/app/tour.cpp
+src/audio/analysis.cpp
+src/audio/beat_tracker.cpp
+src/audio/cues.cpp
+src/audio/demo_signal.cpp
+src/audio/monitor.cpp
+src/audio/spectrum.cpp
+src/audio/mixer.cpp
+src/audio/music.cpp
+src/audio/icy.cpp
+src/audio/library.cpp
+src/audio/radio.cpp
+src/audio/stream_decoder.cpp
+src/third_party/opus/*.c
+src/audio/wav.cpp
+src/net/http.cpp
+src/net/json.cpp
+src/net/cover_art.cpp
+src/concepts/*.cpp
+src/concepts/components/*.cpp
+src/core/frame_stats.cpp
+src/core/input.cpp
+src/core/save_file.cpp
+src/core/settings.cpp
+src/core/version.cpp
+src/demo/catalog.cpp
+src/gfx/draw_list.cpp
+src/gfx/font.cpp
+src/gfx/triangulate.cpp
+src/third_party/stb/vorbis.c
+src/third_party/stb/image.c
+src/third_party/minimp3/mp3.c
+src/ui/components/*.cpp
+src/ui/confetti.cpp
+src/ui/glyphs.cpp
+src/ui/pixel_font.cpp
+src/ui/theme.cpp
+src/ui/widgets.cpp

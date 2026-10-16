@@ -1,0 +1,11 @@
+FROM ubuntu:24.04
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    clang-18 clang-format-18 clang-tidy-18 lld-18 llvm-18 libclang-rt-18-dev \
+    curl git make ninja-build ccache pkg-config \
+    python3 python3-pip python3-venv tar unzip wget ca-certificates \
+    libegl-dev libgl-dev libegl-mesa0 libgl1-mesa-dri ffmpeg \
+ && rm -rf /var/lib/apt/lists/* \
+ && ln -sf /usr/bin/clang-18 /usr/local/bin/clang \
+ && ln -sf /usr/bin/clang++-18 /usr/local/bin/clang++
+WORKDIR /work

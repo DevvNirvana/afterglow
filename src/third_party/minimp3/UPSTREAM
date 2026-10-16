@@ -1,0 +1,3 @@
+minimp3 by lieff, https://github.com/lieff/minimp3
+Commit ea99364f61c14656440e8d77e9c233ccf3124633, file minimp3.h (renamed minimp3.inc so the
+build compiles it only through mp3.c). Licence: CC0 1.0 Universal (LICENSE).

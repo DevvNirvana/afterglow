@@ -1,0 +1,6 @@
+libopus 1.5.2 by the Xiph.Org Foundation and contributors, https://github.com/xiph/opus
+(tag v1.5.2). The float build's celt/, silk/, silk/float/, src/ and include/ sources,
+flattened into this folder; the encoder front ends (opus_encoder.c, the multistream and
+projection encoders, analysis.c, mlp*.c) are left out, as Afterglow only decodes. Each .c
+file starts with #include "opus_config.h" (the build settings), and the one include of
+"float/structs_FLP.h" reads "structs_FLP.h". Licence: BSD 3-clause (LICENSE).
